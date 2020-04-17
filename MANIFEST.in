@@ -1,0 +1,12 @@
+exclude *
+
+include requirements.txt
+include *.py
+
+graft abstract
+graft services
+graft docs
+
+prune **/__pycache__
+prune env
+prune test
